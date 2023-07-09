@@ -1,0 +1,35 @@
+.product-card-container{
+    width: 280px;
+    position: relative;
+}
+
+.product-card-container img{
+    width: 340px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.product-card-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+.add-to-cart-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+.add-to-cart-button:hover{
+    background-color: black;
+
+    color: #fff;
+
+}
